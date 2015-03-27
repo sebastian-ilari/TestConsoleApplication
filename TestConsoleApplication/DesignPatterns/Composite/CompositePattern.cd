@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestConsoleApplication.DesignPatterns.Composite.CompositePattern">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Composite\CompositePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Composite.Contractor">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="TestConsoleApplication.DesignPatterns.Composite.EmployeeBase" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="2.247" />
+        <Point X="4" Y="2.771" />
+        <Point X="7" Y="2.771" />
+        <Point X="7" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Composite\Contractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Composite.Employee">
+    <Position X="2.25" Y="3.25" Width="2.25" />
+    <InheritanceLine Type="TestConsoleApplication.DesignPatterns.Composite.EmployeeBase" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="2.247" />
+        <Point X="4" Y="2.74" />
+        <Point X="3.375" Y="2.74" />
+        <Point X="3.375" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAAABAAIAAAAACAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Composite\Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Composite.EmployeeBase">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DesignPatterns\Composite\EmployeeBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TestConsoleApplication.DesignPatterns.Composite.IEmployed">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DesignPatterns\Composite\IEmployed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

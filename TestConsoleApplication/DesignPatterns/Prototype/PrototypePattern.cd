@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestConsoleApplication.DesignPatterns.Prototype.Developer" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAEAAAAAQAAAAAQAEAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Prototype\Developer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Prototype.PrototypePattern">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Prototype\PrototypePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Prototype.Typist" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAAAAQAEAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Prototype\Typist.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TestConsoleApplication.DesignPatterns.Prototype.IEmployee">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Prototype\IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

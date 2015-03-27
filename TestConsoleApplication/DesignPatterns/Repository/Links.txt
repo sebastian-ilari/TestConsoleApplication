@@ -1,0 +1,5 @@
+﻿http://www.remondo.net/repository-pattern-example-csharp/
+http://codereview.stackexchange.com/questions/19037/entity-framework-generic-repository-pattern
+http://www.asp.net/mvc/tutorials/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
+
+http://tech.pro/blog/1191/say-no-to-the-repository-pattern-in-your-dal

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.BridgePattern">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\BridgePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.EmailSender" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\EmailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.Message">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAMABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.MSMQSender" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\MSMQSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.SystemMessage">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\SystemMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.UserMessage">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\UserMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Bridge.WebServiceSender" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\WebServiceSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TestConsoleApplication.DesignPatterns.Bridge.IMessageSender">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Bridge\IMessageSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

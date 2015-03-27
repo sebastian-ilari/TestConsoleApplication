@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.CarAccessories">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\CarAccesories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.CarBody">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\CarBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.CarEngine">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\CarEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.CarFacade">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAACAAQAAAAAAAAAAAAQIAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\CarFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.CarModel">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\CarModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Facade.FacadePattern">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Facade\FacadePattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

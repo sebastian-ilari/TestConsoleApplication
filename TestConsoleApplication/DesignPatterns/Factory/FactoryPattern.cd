@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestConsoleApplication.DesignPatterns.Factory.VehicleFactory">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\VehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Factory.Bike" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\Bike.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Factory.ConcreteVehicleFactory">
+    <Position X="3.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\ConcreteVehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Factory.FactoryPattern">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\FactoryPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestConsoleApplication.DesignPatterns.Factory.Scooter" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\Scooter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.256" />
+  </Class>
+  <Interface Name="TestConsoleApplication.DesignPatterns.Factory.IFactory">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Factory\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TestConsoleApplication.DesignPatterns.Factory.VehicleType">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DesignPatterns\Factory\VehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

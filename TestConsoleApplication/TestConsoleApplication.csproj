@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{150A1176-2B60-440B-9333-C096D7727D84}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestConsoleApplication</RootNamespace>
+    <AssemblyName>TestConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention">
+      <HintPath>..\packages\Unity.3.5.1404.0\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="UnityStarterMain.cs" />
+    <Compile Include="DesignPatterns\Adapter\AdapterPattern.cs" />
+    <Compile Include="DesignPatterns\Adapter\Employee.cs" />
+    <Compile Include="DesignPatterns\Adapter\EmployeeAdapter.cs" />
+    <Compile Include="DesignPatterns\Adapter\HRSystem.cs" />
+    <Compile Include="DesignPatterns\Adapter\ITarget.cs" />
+    <Compile Include="DesignPatterns\Adapter\ThirdPartyBillingSystem.cs" />
+    <Compile Include="DesignPatterns\Bridge\BridgePattern.cs" />
+    <Compile Include="DesignPatterns\Bridge\EmailSender.cs" />
+    <Compile Include="DesignPatterns\Bridge\IMessageSender.cs" />
+    <Compile Include="DesignPatterns\Bridge\Message.cs" />
+    <Compile Include="DesignPatterns\Bridge\MSMQSender.cs" />
+    <Compile Include="DesignPatterns\Bridge\SystemMessage.cs" />
+    <Compile Include="DesignPatterns\Bridge\UserMessage.cs" />
+    <Compile Include="DesignPatterns\Bridge\WebServiceSender.cs" />
+    <Compile Include="DesignPatterns\Builder\BuilderPattern.cs" />
+    <Compile Include="DesignPatterns\Builder\HeroBuilder.cs" />
+    <Compile Include="DesignPatterns\Builder\HondaBuilder.cs" />
+    <Compile Include="DesignPatterns\Builder\IVehicleBuilder.cs" />
+    <Compile Include="DesignPatterns\Builder\Vehicle.cs" />
+    <Compile Include="DesignPatterns\Builder\VehicleCreator.cs" />
+    <Compile Include="DesignPatterns\Command\CommandPattern.cs" />
+    <Compile Include="DesignPatterns\Command\ICommand.cs" />
+    <Compile Include="DesignPatterns\Command\Light.cs" />
+    <Compile Include="DesignPatterns\Command\Switch.cs" />
+    <Compile Include="DesignPatterns\Command\SwitchOffCommand.cs" />
+    <Compile Include="DesignPatterns\Command\SwitchOnCommand.cs" />
+    <Compile Include="DesignPatterns\Composite\CompositePattern.cs" />
+    <Compile Include="DesignPatterns\Composite\EmployeeBase.cs" />
+    <Compile Include="DesignPatterns\Composite\IEmployed.cs" />
+    <Compile Include="DesignPatterns\Composite\Contractor.cs" />
+    <Compile Include="DesignPatterns\Composite\Employee.cs" />
+    <Compile Include="DesignPatterns\Decorator\DecoratorPattern.cs" />
+    <Compile Include="DesignPatterns\Decorator\HondaCity.cs" />
+    <Compile Include="DesignPatterns\Decorator\SpecialOffer.cs" />
+    <Compile Include="DesignPatterns\Decorator\IVehicle.cs" />
+    <Compile Include="DesignPatterns\Decorator\VehicleDecorator.cs" />
+    <Compile Include="DesignPatterns\Facade\CarAccesories.cs" />
+    <Compile Include="DesignPatterns\Facade\CarBody.cs" />
+    <Compile Include="DesignPatterns\Facade\CarEngine.cs" />
+    <Compile Include="DesignPatterns\Facade\CarFacade.cs" />
+    <Compile Include="DesignPatterns\Facade\CarModel.cs" />
+    <Compile Include="DesignPatterns\Facade\FacadePattern.cs" />
+    <Compile Include="DesignPatterns\Factory\Bike.cs" />
+    <Compile Include="DesignPatterns\Factory\ConcreteVehicleFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\FactoryPattern.cs" />
+    <Compile Include="DesignPatterns\Factory\IFactory.cs" />
+    <Compile Include="DesignPatterns\Factory\Scooter.cs" />
+    <Compile Include="DesignPatterns\Factory\VehicleFactory.cs" />
+    <Compile Include="DesignPatterns\Prototype\Developer.cs" />
+    <Compile Include="DesignPatterns\Prototype\IEmployee.cs" />
+    <Compile Include="DesignPatterns\Prototype\PrototypePattern.cs" />
+    <Compile Include="DesignPatterns\Prototype\Typist.cs" />
+    <Compile Include="DesignPatterns\Proxy\IClient.cs" />
+    <Compile Include="DesignPatterns\Proxy\ProxyClient.cs" />
+    <Compile Include="DesignPatterns\Proxy\ProxyPattern.cs" />
+    <Compile Include="DesignPatterns\Proxy\RealClient.cs" />
+    <Compile Include="DesignPatterns\Singleton\Singleton.cs" />
+    <Compile Include="DesignPatterns\Singleton\SingletonPattern.cs" />
+    <Compile Include="DesignPatterns\Strategy\SilverWash.cs" />
+    <Compile Include="DesignPatterns\Strategy\BronzeWash.cs" />
+    <Compile Include="DesignPatterns\Strategy\CarService.cs" />
+    <Compile Include="DesignPatterns\Strategy\ICarWash.cs" />
+    <Compile Include="DesignPatterns\Strategy\StrategyPattern.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeImplementations\MonthlyEmployee.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeImplementations\YearlyEmployee.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeImplementations\HourlyEmployee.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeFactory.cs" />
+    <Compile Include="PolymorphicEmployee\Employee.cs" />
+    <Compile Include="PolymorphicEmployee\IEmployeeFactory.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeRecord.cs" />
+    <Compile Include="PolymorphicEmployee\EmployeeType.cs" />
+    <Compile Include="PolymorphicEmployee\PolymorphicEmployeeExample.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DesignPatternsMain.cs" />
+    <Compile Include="Unity\Builder.cs" />
+    <Compile Include="Unity\EntityBuilder.cs" />
+    <Compile Include="Unity\IEntity.cs" />
+    <Compile Include="Unity\Entity.cs" />
+    <Compile Include="Unity\IRepository.cs" />
+    <Compile Include="Unity\Repository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DesignPatterns\Proxy\ProxyPattern.cd" />
+    <None Include="DesignPatterns\Facade\FacadePattern.cd" />
+    <None Include="DesignPatterns\Prototype\PrototypePattern.cd" />
+    <None Include="DesignPatterns\Bridge\BridgePattern.cd" />
+    <None Include="DesignPatterns\Composite\CompositePattern.cd" />
+    <None Include="DesignPatterns\Builder\BuilderPattern.cd" />
+    <None Include="DesignPatterns\Command\CommandPattern.cd" />
+    <None Include="DesignPatterns\Singleton\SingletonPattern.cd" />
+    <None Include="DesignPatterns\Decorator\DecoratorPattern.cd" />
+    <None Include="DesignPatterns\Strategy\StrategyPattern.cd" />
+    <None Include="DesignPatterns\Adapter\AdapterPattern.cd" />
+    <None Include="DesignPatterns\Factory\FactoryPattern.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DesignPatterns\Repository\Links.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
